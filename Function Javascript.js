@@ -63,9 +63,9 @@ let upperFirst = function (text) {
 let parola  = text.split(" ")
 for (let i = 0; i < parola.length; i++) {
  let lettera = parola [i]
- parola[i]= lettera.charAt(0).toUpperCase() + lettera.slice(1)
+ parola[i] = lettera.charAt(0).toUpperCase() + lettera.slice(1)
 }
-return parola.join("")
+return parola.join(" ")
 };
 let parolaFinale = upperFirst("pippo franco")
 console.log(parolaFinale)

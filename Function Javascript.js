@@ -104,7 +104,7 @@ if( lato1 != lato2 ){
 let lato1 = 5
 let lato2 = 10
 let AreaDelRettangolo = area (lato1,lato2)
-console.log(AreaDelRettangolo)
+console.log(`Area del rettangolo dati lato1 ${lato1} e lato2 ${lato2} è = ${AreaDelRettangolo}`)
 /* ESERCIZIO 2
  Scrivi una funzione chiamata "crazyDiff" che calcola la differenza assoluta tra un numero fornito e 19.
  Se il valore calcolato è più grande di 19, la funzione deve tornare tale risultato moltiplicato per 3.
